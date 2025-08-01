@@ -1,0 +1,43 @@
+{
+  "name": "Fruit",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the fruit"
+    },
+    "color": {
+      "type": "string", 
+      "description": "Primary color of the fruit"
+    },
+    "taste": {
+      "type": "string",
+      "description": "Taste profile (sweet, sour, tart, etc.)"
+    },
+    "season": {
+      "type": "string",
+      "description": "Best season for the fruit (Spring, Summer, Fall, Winter)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of the fruit"
+    },
+    "nutritionFacts": {
+      "type": "string",
+      "description": "Key nutritional benefits"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether the fruit is marked as favorite"
+    },
+    "emoji": {
+      "type": "string",
+      "description": "Emoji representation of the fruit"
+    }
+  },
+  "required": [
+    "name",
+    "color",
+    "taste"
+  ]
+}

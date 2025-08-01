@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react'
 import Monetization from './components/monetization/Monetization'
-import FlashCardApp from './components/FlashCardApp'
+import FruitApp from './components/FruitApp'
 
 function App() {
 
   return (
     <Monetization>
-      <FlashCardApp />
+      <FruitApp />
     </Monetization>
   )
 }
